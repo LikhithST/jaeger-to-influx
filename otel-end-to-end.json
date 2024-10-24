@@ -1,0 +1,2389 @@
+{
+    "data": [
+        {
+            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+            "spans": [
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "158883e3561a8738",
+                    "operationName": "publish_span",
+                    "references": [],
+                    "startTime": 1729762716441489,
+                    "duration": 49981,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 95
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 1
+                        },
+                        {
+                            "key": "user_field",
+                            "type": "string",
+                            "value": "user-value"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 1933701
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "src/publisher-otel.rs"
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "publisher_otel"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 48026713
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "main"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "0df4ccd9a8475696",
+                    "operationName": "broker_validate_value",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "3f641ece9ea201dc"
+                        }
+                    ],
+                    "startTime": 1729762716446714,
+                    "duration": 16,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 394
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 3270
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 11224
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446704053 UTC"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "e4f2418a47b30596",
+                    "operationName": "broker_authorized_read_access",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "d7dcd96e1ffa0565"
+                        }
+                    ],
+                    "startTime": 1729762716446022,
+                    "duration": 16,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446010057 UTC"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 12074
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 1301
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 2527
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "c3ade56627fd959b",
+                    "operationName": "broker_get_metadata_by_id",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "1b63e07db6d8bc47"
+                        }
+                    ],
+                    "startTime": 1729762716446092,
+                    "duration": 38,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 6776
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 1110
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446080743 UTC"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 29230
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "1b63e07db6d8bc47",
+                    "operationName": "broker_get_metadata_by_path",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "d7dcd96e1ffa0565"
+                        }
+                    ],
+                    "startTime": 1729762716446066,
+                    "duration": 84,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 1115
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446053102 UTC"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 71283
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 11995
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "d7dcd96e1ffa0565",
+                    "operationName": "broker_get_id_by_path",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "90719904d6129829"
+                        }
+                    ],
+                    "startTime": 1729762716445995,
+                    "duration": 177,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.445981036 UTC"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 160960
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 1376
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 15005
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "b3c237100f8c7b81",
+                    "operationName": "conversion_From\u003cOption\u003cproto::datapoint::Value\u003e\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "042f5bb7858189e1"
+                        }
+                    ],
+                    "startTime": 1729762716446237,
+                    "duration": 16,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::grpc::kuksa_val_v1::conversions"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 11709
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 239
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/grpc/kuksa_val_v1/conversions.rs"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446225351 UTC"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 2511
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "042f5bb7858189e1",
+                    "operationName": "val_from_proto_entry_and_fields",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "90719904d6129829"
+                        }
+                    ],
+                    "startTime": 1729762716446210,
+                    "duration": 66,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446195138 UTC"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 13756
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::grpc::kuksa_val_v1::val"
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 51630
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/grpc/kuksa_val_v1/val.rs"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 1031
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "c20741864e44c67d",
+                    "operationName": "permissions_expired",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "95b6152466599a2e"
+                        }
+                    ],
+                    "startTime": 1729762716446554,
+                    "duration": 15,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 2137
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 11397
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 218
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446543609 UTC"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/permissions.rs"
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::permissions"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "95b6152466599a2e",
+                    "operationName": "permissions_can_write_actuator_target",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "00689b35cfc1f614"
+                        }
+                    ],
+                    "startTime": 1729762716446534,
+                    "duration": 96,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446520478 UTC"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/permissions.rs"
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::permissions"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 189
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 82712
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 12613
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "3f641ece9ea201dc",
+                    "operationName": "broker_validate",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "00689b35cfc1f614"
+                        }
+                    ],
+                    "startTime": 1729762716446694,
+                    "duration": 98,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 216
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446682600 UTC"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 11578
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 84703
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "b4158f544ad88f97",
+                    "operationName": "broker_authorized_access",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "90719904d6129829"
+                        }
+                    ],
+                    "startTime": 1729762716445936,
+                    "duration": 18,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.445921584 UTC"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 2365
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 14463
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 1640
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "de4d4b67381c681b",
+                    "operationName": "broker_diff",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "00689b35cfc1f614"
+                        }
+                    ],
+                    "startTime": 1729762716446653,
+                    "duration": 16,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 12021
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 2261
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446640762 UTC"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 196
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "f47bd952f3bbc7bb",
+                    "operationName": "broker_apply",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "00689b35cfc1f614"
+                        }
+                    ],
+                    "startTime": 1729762716446816,
+                    "duration": 37,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 26730
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446803177 UTC"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 584
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 7667
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "5e407d9ca51a49a2",
+                    "operationName": "permissions_is_match",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "95b6152466599a2e"
+                        }
+                    ],
+                    "startTime": 1729762716446595,
+                    "duration": 16,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::permissions"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 231
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/permissions.rs"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 1912
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 11996
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446583132 UTC"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "00689b35cfc1f614",
+                    "operationName": "broker_update",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "b3acf12898484dd5"
+                        }
+                    ],
+                    "startTime": 1729762716446375,
+                    "duration": 498,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446361731 UTC"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 12540
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 1156
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 483994
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "bbdf0de3307d5508",
+                    "operationName": "broker_validate_allowed",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "3f641ece9ea201dc"
+                        }
+                    ],
+                    "startTime": 1729762716446756,
+                    "duration": 16,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 2117
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 262
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446744310 UTC"
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 11764
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "15bbab2ec484ba96",
+                    "operationName": "permissions_expired",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "e414814ac2f2199b"
+                        }
+                    ],
+                    "startTime": 1729762716447008,
+                    "duration": 16,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 218
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::permissions"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 12034
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 2295
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/permissions.rs"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446996423 UTC"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "77b39549a8aa0139",
+                    "operationName": "broker_authorized_read_access",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "0ba79e6dc74b75ee"
+                        }
+                    ],
+                    "startTime": 1729762716446934,
+                    "duration": 16,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446921990 UTC"
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 11248
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 1301
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 2351
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "ca36a7ce76b35a1b",
+                    "operationName": "broker_authorized_write_access",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "b3acf12898484dd5"
+                        }
+                    ],
+                    "startTime": 1729762716446330,
+                    "duration": 16,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 1312
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 2395
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 11745
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446319021 UTC"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "c38299b5010bd54f",
+                    "operationName": "permissions_can_write_datapoint",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "00689b35cfc1f614"
+                        }
+                    ],
+                    "startTime": 1729762716446397,
+                    "duration": 112,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 11753
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 199
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 100108
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::permissions"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/permissions.rs"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446386143 UTC"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "e414814ac2f2199b",
+                    "operationName": "get_entry_by_id",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "0ba79e6dc74b75ee"
+                        }
+                    ],
+                    "startTime": 1729762716446986,
+                    "duration": 102,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 12703
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446972242 UTC"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 87862
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 1091
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "9cef14d5e031e121",
+                    "operationName": "permissions_is_match",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "e414814ac2f2199b"
+                        }
+                    ],
+                    "startTime": 1729762716447052,
+                    "duration": 16,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 2065
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.447039227 UTC"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 12287
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::permissions"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/permissions.rs"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 231
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "0ba79e6dc74b75ee",
+                    "operationName": "broker_ChangeSubscription_notify",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "0773ce95700806a1"
+                        }
+                    ],
+                    "startTime": 1729762716446915,
+                    "duration": 275,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 12179
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 260294
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 740
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "50dfef668a946d85",
+                    "operationName": "permissions_expired",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "c38299b5010bd54f"
+                        }
+                    ],
+                    "startTime": 1729762716446416,
+                    "duration": 15,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 218
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 2384
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::permissions"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446405942 UTC"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/permissions.rs"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 10831
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "626019c437fe093c",
+                    "operationName": "permissions_is_match",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "c38299b5010bd54f"
+                        }
+                    ],
+                    "startTime": 1729762716446458,
+                    "duration": 32,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 27513
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 231
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446445251 UTC"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 2221
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::permissions"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/permissions.rs"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "b3acf12898484dd5",
+                    "operationName": "broker_update_entries",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "90719904d6129829"
+                        }
+                    ],
+                    "startTime": 1729762716446306,
+                    "duration": 934,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 1484
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.446292463 UTC"
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 917449
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 14471
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "90719904d6129829",
+                    "operationName": "val_set",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "158883e3561a8738"
+                        }
+                    ],
+                    "startTime": 1729762716445679,
+                    "duration": 1583,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/grpc/kuksa_val_v1/val.rs"
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::grpc::kuksa_val_v1::val"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "timestamp",
+                            "type": "string",
+                            "value": "2024-10-24 09:38:36.445606788 UTC"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 268
+                        },
+                        {
+                            "key": "trace_id",
+                            "type": "string",
+                            "value": "16"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 82860
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 1503641
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "0773ce95700806a1",
+                    "operationName": "broker_Subscriptions_notify",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "b3acf12898484dd5"
+                        }
+                    ],
+                    "startTime": 1729762716446898,
+                    "duration": 318,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "databroker::broker"
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 628
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "tokio-runtime-worker"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 6
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "databroker/src/broker.rs"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 13388
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 305494
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                    "spanID": "69fe4c935d8a0e4e",
+                    "operationName": "subscribe_span",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "5ac8bdc440f0884e8c8efffe0cf8905a",
+                            "spanID": "0ba79e6dc74b75ee"
+                        }
+                    ],
+                    "startTime": 1729762716447949,
+                    "duration": 202,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry-otlp"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.12.0"
+                        },
+                        {
+                            "key": "idle_ns",
+                            "type": "int64",
+                            "value": 44130
+                        },
+                        {
+                            "key": "busy_ns",
+                            "type": "int64",
+                            "value": 149389
+                        },
+                        {
+                            "key": "code.lineno",
+                            "type": "int64",
+                            "value": 53
+                        },
+                        {
+                            "key": "code.namespace",
+                            "type": "string",
+                            "value": "subscriber_otel"
+                        },
+                        {
+                            "key": "user_field",
+                            "type": "string",
+                            "value": "user-value"
+                        },
+                        {
+                            "key": "code.filepath",
+                            "type": "string",
+                            "value": "src/subscriber-otel.rs"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 1
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "main"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": [
+                        "clock skew adjustment disabled; not applying calculated delta of -998.007µs"
+                    ]
+                }
+            ],
+            "processes": {
+                "p1": {
+                    "serviceName": "publisher",
+                    "tags": []
+                },
+                "p2": {
+                    "serviceName": "kuksa-rust-app",
+                    "tags": []
+                },
+                "p3": {
+                    "serviceName": "subscribe",
+                    "tags": []
+                }
+            },
+            "warnings": null
+        }
+    ],
+    "total": 0,
+    "limit": 0,
+    "offset": 0,
+    "errors": null
+}
